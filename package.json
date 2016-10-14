@@ -10,6 +10,6 @@
   },
   "scripts": {
     "postinstall": "node index.js",
-    "publish": "npm cache clean && npm publish --verbose"
+    "deploy:npm": "npm cache clean && npm publish --verbose"
   }
 }
