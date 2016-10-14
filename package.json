@@ -1,6 +1,6 @@
 {
   "name": "quirkbot-avr-gcc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "AVR GCC toolchain used by the Quirkbot compiler.",
   "main": "index.js",
   "author": "Quirkbot",
@@ -9,6 +9,7 @@
     "url": "git://github.com/Quirkbot/quirkbot-avr-gcc.git"
   },
   "scripts": {
-    "postinstall": "node index.js"
+    "postinstall": "node index.js",
+    "deploy": "npm cache clean && npm publish --verbose"
   }
 }
