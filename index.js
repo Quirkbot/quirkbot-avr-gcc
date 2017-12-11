@@ -23,11 +23,17 @@ var platforms = [
 	'win32-ia32'
 ]
 
-// Move the current platform
-fs.renameSync(
-	path.resolve(process.platform + '-' + process.arch, 'tools'),
-	path.resolve('tools')
-)
+// Move the current platform, if there is no tools directory
+try {
+	fs.accessSync(path.resolve('tools'), fs.F_OK)
+	console.log('./tools directory already exists.')
+} catch (e) {
+	console.log(`Moving ./tools directory.`)
+	fs.renameSync(
+		path.resolve(process.platform + '-' + process.arch, 'tools'),
+		path.resolve('tools')
+	)
+}
 
 // Clear other files
 platforms.forEach(deleteFolderRecursive)
