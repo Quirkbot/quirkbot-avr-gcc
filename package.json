@@ -10,6 +10,6 @@
   },
   "scripts": {
     "postinstall": "node index.js",
-    "deploy": "npm cache clean && npm publish --verbose"
+    "deploy": "node --max_old_space_size=8192 `which npm` publish --verbose"
   }
 }
