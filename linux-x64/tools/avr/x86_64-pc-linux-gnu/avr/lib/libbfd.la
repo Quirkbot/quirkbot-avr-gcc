@@ -17,7 +17,7 @@ old_library='libbfd.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/home/jenkins/workspace/avr-gcc/label/debian7-x86_64/binutils-build/zlib -lz -ldl'
+dependency_libs=' -L/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/binutils-build/zlib -lz -ldl'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/jenkins/workspace/avr-gcc/label/debian7-x86_64/objdir/x86_64-pc-linux-gnu/avr/lib'
+libdir='/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/objdir/x86_64-pc-linux-gnu/avr/lib'

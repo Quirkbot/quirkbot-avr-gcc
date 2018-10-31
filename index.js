@@ -20,7 +20,8 @@ var platforms = [
 	'darwin-x64',
 	'linux-ia32',
 	'linux-x64',
-	'win32-ia32'
+	'win32-ia32',
+	'win32-x64'
 ]
 
 // Move the current platform, if there is no tools directory
@@ -37,4 +38,3 @@ try {
 
 // Clear other files
 platforms.forEach(deleteFolderRecursive)
-
