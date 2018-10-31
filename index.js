@@ -21,7 +21,7 @@ var platforms = [
 	'linux-ia32',
 	'linux-x64',
 	'win32-ia32',
-	// 'win32-x64'
+	'win32-x64'
 ]
 
 // Move the current platform, if there is no tools directory
@@ -30,7 +30,7 @@ try {
 	console.log('./tools directory already exists.')
 } catch (e) {
 	console.log(`Moving ./tools directory.`)
-	const name = `${process.platform}-${process.platform === 'win32' ? 'ia32' : process.arch}`
+	const name = `${process.platform}-${process.arch}`
 	fs.renameSync(
 		path.resolve(name, 'tools'),
 		path.resolve('tools')
