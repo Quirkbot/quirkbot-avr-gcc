@@ -53,7 +53,7 @@ if [ x$1 != x ] ; then
   prefix=$1
   shift
 else
-  prefix=/Users/jenkins/jenkins/workspace/avr-gcc-staging/label/mac-mini/objdir
+  prefix=/Volumes/build_disk/jenkins_mcu/workspace/avr8-gnu-toolchain-osx/avr8-gnu-toolchain-darwin_x86_64
 fi
 
 # Allow for alternate isysroot in which to find headers
@@ -67,7 +67,7 @@ fi
 # Directory in which to put host dependent programs and libraries
 exec_prefix=${prefix}
 # Directory in which to put the directories used by the compiler.
-libdir=${exec_prefix}/lib
+libdir=/Volumes/build_disk/jenkins_mcu/workspace/avr8-gnu-toolchain-osx/avr8-gnu-toolchain-darwin_x86_64/lib
 libexecdir=${exec_prefix}/libexec
 # Directory in which the compiler finds libraries, etc.
 libsubdir=${libdir}/gcc/${target_noncanonical}/${version}

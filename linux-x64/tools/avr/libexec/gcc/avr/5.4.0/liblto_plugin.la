@@ -17,7 +17,7 @@ old_library=''
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=''
+dependency_libs=' -L/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-linux_x86_64-hostlibs/lib'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/objdir/libexec/gcc/avr/5.4.0'
+libdir='/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-linux_x86_64/libexec/gcc/avr/5.4.0'
