@@ -98,7 +98,7 @@
 
 /* Define to 1 to enable fixed-point arithmetic extension to C. */
 #ifndef USED_FOR_TARGET
-#define ENABLE_FIXED_POINT 1
+#define ENABLE_FIXED_POINT 0
 #endif
 
 

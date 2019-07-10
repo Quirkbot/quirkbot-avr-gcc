@@ -1,5 +1,5 @@
 /* Generated automatically by the program 'build/genpreds'
-   from the machine description file '../../gcc/gcc/config/avr/avr.md'.  */
+   from the machine description file '/Volumes/build_disk/jenkins_mcu/workspace/avr8-gnu-toolchain-osx/src/gcc/gcc/config/avr/avr.md'.  */
 
 #ifndef GCC_TM_PREDS_H
 #define GCC_TM_PREDS_H
