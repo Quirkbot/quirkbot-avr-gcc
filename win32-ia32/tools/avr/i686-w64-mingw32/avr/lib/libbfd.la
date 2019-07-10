@@ -17,7 +17,7 @@ old_library='libbfd.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/binutils-build/zlib -lz'
+dependency_libs=' -L/home/toolsbuild/workspace/avr8-gnu-toolchain/build-win32_x86/avr-binutils/zlib -lz'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/objdir/i686-w64-mingw32/avr/lib'
+libdir='/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86/i686-w64-mingw32/avr/lib'

@@ -1,0 +1,30 @@
+Dette er filen .../info/dir, som inneholder den overste
+noden i Info-hierarkiet, kalt (mappe)Top.
+Forste gang du starter Info begynner du i denne noden.
+
+File: dir,	Node: Top	Dette er toppen av INFO-treet
+
+  Denne katalognoden gir en meny over alle hovedemner.
+  Inntasting av <<q>> avslutter, <<H>> lister alle Info-kommandoene,
+  <<d>> returner hit, <<h>> gir en innforing for nybegynnere,
+  <<mEmacs<Return>>> besoker Emacs-manualen, osv.
+
+  I Emacs kan du klikke med museknapp 2 pa et menypunkt eller kryssreferanse
+  for a velge den.
+
+* Menu:
+
+Software development
+* Annotate: (annotate).         The obsolete annotation interface.
+* Cpp: (cpp).                   The GNU C preprocessor.
+* Cpplib: (cppinternals).       Cpplib internals.
+* Gdb: (gdb).                   The GNU debugger.
+* Stabs: (stabs).               The "stabs" debugging information format.
+* g++: (gcc).                   The GNU C++ compiler.
+* gcc: (gcc).                   The GNU Compiler Collection.
+* gccinstall: (gccinstall).     Installing the GNU Compiler Collection.
+* gccint: (gccint).             Internals of the GNU Compiler Collection.
+* gcov: (gcc) Gcov.             'gcov'--a test coverage program.
+* gcov-tool: (gcc) Gcov-tool.   'gcov-tool'--an offline gcda profile 
+                                  processing program.
+* gdbserver: (gdb) Server.      The GNU debugging server.
