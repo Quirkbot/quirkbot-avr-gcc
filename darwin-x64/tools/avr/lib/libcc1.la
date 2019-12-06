@@ -17,7 +17,7 @@ old_library=''
 inherited_linker_flags=' '
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/Volumes/build_disk/jenkins_mcu/workspace/avr8-gnu-toolchain-osx/avr8-gnu-toolchain-darwin_x86_64-hostlibs/lib'
+dependency_libs=''
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/Volumes/build_disk/jenkins_mcu/workspace/avr8-gnu-toolchain-osx/avr8-gnu-toolchain-darwin_x86_64/lib/.'
+libdir='/Users/jenkins/jenkins/workspace/avr-gcc-staging/label/mac-mini/objdir/lib/'
