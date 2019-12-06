@@ -1,6 +1,11 @@
 # quirkbot-avr-gcc
 Installs the platform specific AVR GCC toolchain used by the Quirkbot compiler.
 
+# Automatically downloaded binaries (recommended)
+The binaries are generated with
+[npm-arduino-publisher](https://github.com/Quirkbot/npm-arduino-publisher.git).
+
+# Manually downloaded binaries
 The binaries are manually downloaded from [microship.com](https://www.microchip.com/mplab/avr-support/avr-and-arm-toolchains-c-compilers), and placed in the platform directories. After placing
 the files in their respective tools > avr directories, a file named `builtin_tools_versions.txt`
 is also placed there, with the content `arduino.avr-gcc=5.4.0-atmel3.6.2` so it

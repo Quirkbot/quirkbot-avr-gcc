@@ -30,9 +30,8 @@ try {
 	console.log('./tools directory already exists.')
 } catch (e) {
 	console.log(`Moving ./tools directory.`)
-	const name = `${process.platform}-${process.platform === 'win32' ? 'ia32' : process.arch}`
 	fs.renameSync(
-		path.resolve(name, 'tools'),
+		path.resolve(process.platform + '-' + process.arch, 'tools'),
 		path.resolve('tools')
 	)
 }
