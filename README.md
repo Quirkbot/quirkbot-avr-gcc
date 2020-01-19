@@ -14,6 +14,14 @@ could be potentially used to integrate with Arduino.
 After placing all the binaries for all platforms, run `sh fixsymlinks.sh` to
 resolve the symlinks and use copies of the files instead.
 
+# Remove unnecessary files
+While trying to publish version 2.0.3, noticed that the process was always
+failing with the error `413 Payload Too Large`. This error started to appear
+because the newer versions of AVR GCC are way bigger.
+
+In order to mitigate it, all library folders, except `avr5` were removed from
+the folder `tools/avr/lib/gcc/avr/{version number}/`.
+
 # Developers
 
 **Never** deploy with `npm publish`! Use `npm run deploy` instead!
